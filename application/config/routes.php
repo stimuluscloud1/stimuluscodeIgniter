@@ -56,14 +56,19 @@ $route['translate_uri_dashes'] = FALSE;
 /** Controller Web **/
 $route['index']='web/index';
 $route['about']='web/about';
+//$route['about-us']='web/about';  /** Repeat **/
+
 $route['our-services']='web/services';
-$route['our-portfolio']='web/portfolio';
+$route['our-portfolio']='web/portfolio'; 
+//$route['portfolio']='web/portfolio'; /** Repeat **/
 $route['contact-us']='web/contact';
 $route['blogs']='web/blog';
+//$route['blog']='web/blog'; /** Repeat **/
 $route['contact-form']='web/form';
 $route['career']='web/career';
 $route['ecommerce-development']='web/ecommerce';
 $route['website-designing-development']='web/website';
+//$route['website-development']='web/website'; /** Repeat **/
 $route['mobile-app-development']='web/mobileApp';
 $route['software-development']='web/software';
 $route['cloud-support']='web/cloud';
@@ -80,9 +85,12 @@ $route['web-development-company-in-pune']='web/link5';
 $route['web-development-company-in-bangalore']='web/link6';
 
 
-$route['web-development/web-development-company-in-raipur']='web/link1';
-$route['web-development/web-development-company-in-durg']='web/link2';
-$route['web-development/web-development-company-in-bhilai']='web/link3';
-$route['web-development/web-development-company-in-korba']='web/link4';
-$route['web-development/web-development-company-in-pune']='web/link5';
-$route['web-development/web-development-company-in-bangalore']='web/link6';
+//$route['online-marketing-company-raipur']='web/link1'; /** Repeat **/
+//$route['website-designing-in-raipur']='web/link1'; /** Repeat **/
+
+// $route['web-development/web-development-company-in-raipur']='web/link1';
+// $route['web-development/web-development-company-in-durg']='web/link2';
+// $route['web-development/web-development-company-in-bhilai']='web/link3';
+// $route['web-development/web-development-company-in-korba']='web/link4';
+// $route['web-development/web-development-company-in-pune']='web/link5';
+// $route['web-development/web-development-company-in-bangalore']='web/link6';
